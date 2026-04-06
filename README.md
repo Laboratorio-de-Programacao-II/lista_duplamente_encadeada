@@ -74,9 +74,9 @@ Apenas os comandos `r` e `imp` produzem saída:
 
 | Entrada | Saída |
 | :--- | :--- |
-| `i 10`<br>`i 20`<br>`i 30`<br>`imp` | `10`<br>`20`<br>`30` |
-| `i 10`<br>`i 20`<br>`i 30`<br>`r 10`<br>`imp`<br>`r 30`<br>`imp` | `retirado: 10`<br>`20`<br>`30`<br>`retirado: 30`<br>`20` |
-| `i 1`<br>`i 2`<br>`i 3`<br>`i 4`<br>`i 5`<br>`inv`<br>`imp` | `5`<br>`4`<br>`3`<br>`2`<br>`1` |
+| i 10<br>i 20<br>i 30<br>imp | 10<br>20<br>30 |
+| i 10<br>i 20<br>i 30<br>r 10<br>imp<br>r 30<br>imp | retirado: 10<br>20<br>30<br>retirado: 30<br>20 |
+| i 1<br>i 2<br>i 3<br>i 4<br>i 5<br>inv<br>imp | 5<br>4<br>3<br>2<br>1 |
 
 ---
 
