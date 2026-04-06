@@ -8,7 +8,6 @@ void FLVazia(TipoLista *Lista) {
 
 int Vazia(TipoLista Lista) {
     /* IMPLEMENTAR */
-    return 1;
 }
 
 void Insere(TipoItem x, TipoLista *Lista) {
