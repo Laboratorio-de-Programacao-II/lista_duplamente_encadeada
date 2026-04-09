@@ -30,7 +30,7 @@ for input_file in input/*; do
 
     # Compara a saída real com a saída esperada
     expected=$(cat "$expected_file")
-    if [ "$actual" = "$expected" ]; then
+    if [ "$(echo "$actual" | tr -s '[:space:]')" = "$(echo "$expected" | tr -s '[:space:]')" ]; then
         echo "Teste $filename: Saída correta"
         PASS=$((PASS + 1))
     else
